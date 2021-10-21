@@ -70,6 +70,6 @@ defmodule Identicon do
   end
 
   def save_image(image, file_name) do
-    File.write("#{file_name}.png", image)
+    File.write("./images/#{file_name}.png", image)
   end
 end
